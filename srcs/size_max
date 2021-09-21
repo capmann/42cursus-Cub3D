@@ -1,0 +1,454 @@
+error2_bonus.c:53:	if (data->assigned > 8)
+error2_bonus.c:66:	while (data->mapo[++i])
+error2_bonus.c:69:		while (data->mapo[i][j] != '\n' && data->mapo[i][j])
+error2_bonus.c:71:		if (!(j == 0 || data->mapo[i][j - 1] == '1'))
+error2_bonus.c:75:	while (data->mapo[++i])
+error2_bonus.c:78:		while (data->mapo[i][++j])
+error2_bonus.c:80:			if (data->mapo[i][j] != '1' && \
+error2_bonus.c:81:				(ft_strlen(data->mapo[i - 1]) < (size_t)j + 1 || \
+error2_bonus.c:82:				ft_strlen(data->mapo[i + 1]) < (size_t)j + 1))
+error2.c:53:	if (data->assigned > 6)
+error2.c:66:	while (data->mapo[++i])
+error2.c:69:		while (data->mapo[i][j] != '\n' && data->mapo[i][j])
+error2.c:71:		if (!(j == 0 || data->mapo[i][j - 1] == '1'))
+error2.c:75:	while (data->mapo[++i])
+error2.c:78:		while (data->mapo[i][++j])
+error2.c:80:			if (data->mapo[i][j] != '1' && \
+error2.c:81:				(ft_strlen(data->mapo[i - 1]) < (size_t)j + 1 || \
+error2.c:82:				ft_strlen(data->mapo[i + 1]) < (size_t)j + 1))
+error_bonus.c:52:	while (data->mapo[0][++j])
+error_bonus.c:53:		if (!(data->mapo[0][j] == '1' || data->mapo[0][j] == ' '))
+error_bonus.c:55:	while (data->mapo[++i])
+error_bonus.c:58:		while (data->mapo[i][j] == ' ' && data->mapo[i][j])
+error_bonus.c:60:		if (!(data->mapo[i][j] == '1' || data->mapo[i][j] == '\0'))
+error_bonus.c:65:	while (data->mapo[i][++j])
+error_bonus.c:67:		if (!(data->mapo[i][j] == '1' || data->mapo[i][j] == ' '))
+error_bonus.c:75:	if (!data->height || !data->width)
+error_bonus.c:80:	if (data->width > 2560)
+error_bonus.c:81:		data->width = 2560;
+error_bonus.c:82:	if (data->height > 1440)
+error_bonus.c:83:		data->height = 1440;
+error_bonus.c:84:	if (data->floor_color < 0 || data->ceiling_color < 0)
+error_bonus.c:89:	if (!data->no_tex.width || !data->so_tex.width || !data->we_tex.width || \
+error_bonus.c:90:		 !data->ea_tex.width || !data->sp_tex.width)
+error_bonus.c:118:			data->flag++;
+error_bonus.c:119:	if (!(data->flag == 1 || data->flag == 0))
+error.c:52:	while (data->mapo[0][++j])
+error.c:53:		if (!(data->mapo[0][j] == '1' || data->mapo[0][j] == ' '))
+error.c:55:	while (data->mapo[++i])
+error.c:58:		while (data->mapo[i][j] == ' ' && data->mapo[i][j])
+error.c:60:		if (!(data->mapo[i][j] == '1' || data->mapo[i][j] == '\0'))
+error.c:65:	while (data->mapo[i][++j])
+error.c:67:		if (!(data->mapo[i][j] == '1' || data->mapo[i][j] == ' '))
+error.c:75:	if (!data->height || !data->width)
+error.c:80:	if (data->width > 2560)
+error.c:81:		data->width = 2560;
+error.c:82:	if (data->height > 1440)
+error.c:83:		data->height = 1440;
+error.c:84:	if (data->floor_color < 0 || data->ceiling_color < 0)
+error.c:89:	if (!data->no_tex.width || !data->so_tex.width || !data->we_tex.width || \
+error.c:90:		 !data->ea_tex.width)
+error.c:118:			data->flag++;
+error.c:119:	if (!(data->flag == 1 || data->flag == 0))
+ft_atoi_bonus.c:113:		data->assigned++;
+ft_atoi.c:108:		data->assigned++;
+ft_events.c:20:	tmp = data->keys.first;
+ft_events.c:31:	if (data->img)
+ft_events.c:32:		mlx_destroy_image(data->mlx_ptr, data->img);
+ft_events.c:33:	if (data->win_ptr)
+ft_events.c:34:		mlx_destroy_window(data->mlx_ptr, data->win_ptr);
+ft_events.c:35:	if (data->no_tex.tex.img)
+ft_events.c:36:		mlx_destroy_image(data->mlx_ptr, data->no_tex.tex.img);
+ft_events.c:37:	if (data->so_tex.tex.img)
+ft_events.c:38:		mlx_destroy_image(data->mlx_ptr, data->so_tex.tex.img);
+ft_events.c:39:	if (data->we_tex.tex.img)
+ft_events.c:40:		mlx_destroy_image(data->mlx_ptr, data->we_tex.tex.img);
+ft_events.c:41:	if (data->ea_tex.tex.img)
+ft_events.c:42:		mlx_destroy_image(data->mlx_ptr, data->ea_tex.tex.img);
+ft_events.c:43:	if (data->sp_tex.tex.img)
+ft_events.c:44:		mlx_destroy_image(data->mlx_ptr, data->sp_tex.tex.img);
+ft_events.c:45:	if (data->mlx_ptr)
+ft_events.c:46:		mlx_destroy_display(data->mlx_ptr);
+ft_events.c:47:	free(data->mlx_ptr);
+ft_events.c:48:	if (data->mapo)
+ft_events.c:49:		ft_free_table(data->mapo);
+ft_events.c:65:	if (!ft_key_check(&data->keys, keycode))
+ft_events.c:68:		ft_key_addfront(&data->keys, key);
+ft_keys.c:72:	ft_key_delete(&data->keys, keycode);
+ft_strdup.c:37:	if (data->side == 0)
+ft_strdup.c:38:		data->distowall = (data->mapx - data->x + \
+ft_strdup.c:39:		(1 - data->stepx) / 2) / data->rayx;
+ft_strdup.c:41:		data->distowall = (data->mapy - data->y + \
+ft_strdup.c:42:		(1 - data->stepy) / 2) / data->rayy;
+ft_strdup.c:50:	iter = data->list.first;
+ft_strdup.c:51:	tmp = data->list.first;
+ft_strdup.c:54:		new->next = data->list.first;
+ft_strdup.c:55:		data->list.first = new;
+main_bonus.c:17:	data->floor_color = -1;
+main_bonus.c:18:	data->ceiling_color = -1;
+main_bonus.c:30:	data->flag = 0;
+main_bonus.c:31:	data->size_max = 0;
+main_bonus.c:38:	if (!data->mapo)
+main_bonus.c:48:	while (data->mapo[++i])
+main_bonus.c:50:		ft_map_check(data->mapo[i], data);
+main_bonus.c:51:		ft_empty_line(data->mapo[i]);
+main_bonus.c:57:	if (data->img)
+main_bonus.c:58:		mlx_destroy_image(data->mlx_ptr, data->img);
+main_bonus.c:59:	data->img = mlx_new_image(data->mlx_ptr, data->width, data->height);
+main_bonus.c:60:	data->addr = (int *)mlx_get_data_addr(data->img, \
+main_bonus.c:61:	&data->bits_per_pixel, &data->line_length, &data->endian);
+main_bonus.c:64:	mlx_put_image_to_window(data->mlx_ptr, data->win_ptr, data->img, 0, 0);
+main.c:17:	data->floor_color = -1;
+main.c:18:	data->ceiling_color = -1;
+main.c:21:	data->height = 1000;
+main.c:22:	data->width = 1000;
+main.c:30:	data->flag = 0;
+main.c:31:	data->size_max = 0;
+main.c:37:	if (!data->mapo)
+main.c:47:	while (data->mapo[++i])
+main.c:49:		ft_map_check(data->mapo[i], data);
+main.c:50:		ft_empty_line(data->mapo[i]);
+main.c:56:	if (data->img)
+main.c:57:		mlx_destroy_image(data->mlx_ptr, data->img);
+main.c:58:	data->img = mlx_new_image(data->mlx_ptr, data->width, data->height);
+main.c:59:	data->addr = (int *)mlx_get_data_addr(data->img, \
+main.c:60:	&data->bits_per_pixel, &data->line_length, &data->endian);
+main.c:63:	mlx_put_image_to_window(data->mlx_ptr, data->win_ptr, data->img, 0, 0);
+move2.c:17:	data->speed = 0.1;
+move2.c:18:	if (data->mapo[(int)(data->x + \
+move2.c:19:	data->camplanex * data->speed)][(int)(data->y)] != '1' && \
+move2.c:20:	data->mapo[(int)(data->x)][(int)(data->y + data->camplaney * data->speed)] \
+move2.c:22:		data->x += data->camplanex * data->speed;
+move2.c:23:	if (data->mapo[(int)(data->x)][(int)(data->y + \
+move2.c:24:	data->camplaney * data->speed)] != '1' && \
+move2.c:25:	data->mapo[(int)(data->x + data->camplanex * data->speed)][(int)(data->y)] \
+move2.c:27:		data->y += data->camplaney * data->speed;
+move2.c:32:	data->speed = 0.1;
+move2.c:33:	if (data->mapo[(int)(data->x - \
+move2.c:34:	data->camplanex * data->speed)][(int)(data->y)] != '1' && \
+move2.c:35:	data->mapo[(int)(data->x)][(int)(data->y - data->camplaney * data->speed)] \
+move2.c:37:		data->x -= data->camplanex * data->speed;
+move2.c:38:	if (data->mapo[(int)(data->x)][(int)(data->y - \
+move2.c:39:	data->camplaney * data->speed)] != '1' && \
+move2.c:40:	data->mapo[(int)(data->x - data->camplanex * data->speed)][(int)(data->y)] \
+move2.c:42:		data->y -= data->camplaney * data->speed;
+move2.c:61:		data->tex_x = (int)(data->exact_x * data->we_tex.width);
+move2.c:62:		data->tex_y = (y - data->walltop) * \
+move2.c:63:		data->we_tex.height / data->wallheight;
+move2.c:64:		data->addr[y * data->width + x] = \
+move2.c:65:		data->we_tex.tex.addr[data->tex_y * data->we_tex.width + data->tex_x];
+move2.c:69:		data->tex_x = (int)(data->exact_x * data->ea_tex.width);
+move2.c:70:		data->tex_y = (y - data->walltop) * \
+move2.c:71:		data->ea_tex.height / data->wallheight;
+move2.c:72:		data->addr[y * data->width + x] = \
+move2.c:73:		data->ea_tex.tex.addr[data->tex_y * data->ea_tex.width + data->tex_x];
+move.c:17:	if (ft_key_check(&data->keys, 65307) || (ft_key_check(&data->keys, 120)))
+move.c:19:	if (ft_key_check(&data->keys, 119))
+move.c:21:	if (ft_key_check(&data->keys, 115))
+move.c:23:	if (ft_key_check(&data->keys, 97))
+move.c:25:	if (ft_key_check(&data->keys, 100))
+move.c:27:	if (ft_key_check(&data->keys, 65363))
+move.c:29:	if (ft_key_check(&data->keys, 65361))
+move.c:35:	data->speed = 0.1;
+move.c:36:	if (data->mapo[(int)(data->x + \
+move.c:37:	data->dirvecx * data->speed)][(int)(data->y)] != '1' && \
+move.c:38:	data->mapo[(int)(data->x)][(int)(data->y + data->dirvecy * data->speed)] \
+move.c:40:		data->x += data->dirvecx * data->speed;
+move.c:41:	if (data->mapo[(int)(data->x)][(int)(data->y + \
+move.c:42:	data->dirvecy * data->speed)] != '1' && \
+move.c:43:	data->mapo[(int)(data->x + data->dirvecx * data->speed)][(int)(data->y)] \
+move.c:45:		data->y += data->dirvecy * data->speed;
+move.c:50:	data->speed = 0.1;
+move.c:51:	if (data->mapo[(int)(data->x - \
+move.c:52:	data->dirvecx * data->speed)][(int)(data->y)] != '1' && \
+move.c:53:	data->mapo[(int)(data->x)][(int)(data->y - data->dirvecy * data->speed)] \
+move.c:55:		data->x -= data->dirvecx * data->speed;
+move.c:56:	if (data->mapo[(int)(data->x)][(int)(data->y - \
+move.c:57:	data->dirvecy * data->speed)] != '1' && \
+move.c:58:	data->mapo[(int)(data->x - data->dirvecx * data->speed)][(int)(data->y)] \
+move.c:60:		data->y -= data->dirvecy * data->speed;
+move.c:68:	olddirx = data->dirvecx;
+move.c:69:	data->dirvecx = data->dirvecx * cos(-0.1) - data->dirvecy * sin(-0.1);
+move.c:70:	data->dirvecy = olddirx * sin(-0.1) + data->dirvecy * cos(-0.1);
+move.c:71:	oldplanex = data->camplanex;
+move.c:72:	data->camplanex = data->camplanex * cos(-0.1) - data->camplaney * sin(-0.1);
+move.c:73:	data->camplaney = oldplanex * sin(-0.1) + data->camplaney * cos(-0.1);
+move.c:81:	olddirx = data->dirvecx;
+move.c:82:	data->dirvecx = data->dirvecx * cos(0.1) - data->dirvecy * sin(0.1);
+move.c:83:	data->dirvecy = olddirx * sin(0.1) + data->dirvecy * cos(0.1);
+move.c:84:	oldplanex = data->camplanex;
+move.c:85:	data->camplanex = data->camplanex * cos(0.1) - data->camplaney * sin(0.1);
+move.c:86:	data->camplaney = oldplanex * sin(0.1) + data->camplaney * cos(0.1);
+parsing2_bonus.c:21:	while (data->mapo[++x])
+parsing2_bonus.c:24:		while (data->mapo[x][++y])
+parsing2_bonus.c:26:			if (data->mapo[x][y] == 'N' || data->mapo[x][y] == 'W' || \
+parsing2_bonus.c:27:				data->mapo[x][y] == 'E' || data->mapo[x][y] == 'S')
+parsing2_bonus.c:29:				data->x = x + 0.5;
+parsing2_bonus.c:30:				data->y = y + 0.5;
+parsing2_bonus.c:34:	if (!data->x || !data->y)
+parsing2_bonus.c:45:	c = data->mapo[(int)data->x][(int)data->y];
+parsing2_bonus.c:48:		data->dirvecx = -1;
+parsing2_bonus.c:49:		data->dirvecy = 0;
+parsing2_bonus.c:53:		data->dirvecx = 1;
+parsing2_bonus.c:54:		data->dirvecy = 0;
+parsing2_bonus.c:58:		data->dirvecx = 0;
+parsing2_bonus.c:59:		data->dirvecy = 1;
+parsing2_bonus.c:63:		data->dirvecx = 0;
+parsing2_bonus.c:64:		data->dirvecy = -1;
+parsing2_bonus.c:72:	c = data->mapo[(int)data->x][(int)data->y];
+parsing2_bonus.c:75:		data->camplanex = 0;
+parsing2_bonus.c:76:		data->camplaney = 0.66;
+parsing2_bonus.c:80:		data->camplanex = 0;
+parsing2_bonus.c:81:		data->camplaney = -0.66;
+parsing2_bonus.c:85:		data->camplanex = 0.66;
+parsing2_bonus.c:86:		data->camplaney = 0;
+parsing2_bonus.c:90:		data->camplanex = -0.66;
+parsing2_bonus.c:91:		data->camplaney = 0;
+parsing2_bonus.c:108:		data->width = ft_width(line);
+parsing2_bonus.c:110:		data->height = ft_height(line);
+parsing2_bonus.c:112:		data->floor_color = ft_color(line);
+parsing2_bonus.c:114:		data->ceiling_color = ft_color(line);
+parsing2.c:21:	while (data->mapo[++x])
+parsing2.c:24:		while (data->mapo[x][++y])
+parsing2.c:26:			if (data->mapo[x][y] == 'N' || data->mapo[x][y] == 'W' || \
+parsing2.c:27:				data->mapo[x][y] == 'E' || data->mapo[x][y] == 'S')
+parsing2.c:29:				data->x = x + 0.5;
+parsing2.c:30:				data->y = y + 0.5;
+parsing2.c:34:	if (!data->x || !data->y)
+parsing2.c:45:	c = data->mapo[(int)data->x][(int)data->y];
+parsing2.c:48:		data->dirvecx = -1;
+parsing2.c:49:		data->dirvecy = 0;
+parsing2.c:53:		data->dirvecx = 1;
+parsing2.c:54:		data->dirvecy = 0;
+parsing2.c:58:		data->dirvecx = 0;
+parsing2.c:59:		data->dirvecy = 1;
+parsing2.c:63:		data->dirvecx = 0;
+parsing2.c:64:		data->dirvecy = -1;
+parsing2.c:72:	c = data->mapo[(int)data->x][(int)data->y];
+parsing2.c:75:		data->camplanex = 0;
+parsing2.c:76:		data->camplaney = 0.66;
+parsing2.c:80:		data->camplanex = 0;
+parsing2.c:81:		data->camplaney = -0.66;
+parsing2.c:85:		data->camplanex = 0.66;
+parsing2.c:86:		data->camplaney = 0;
+parsing2.c:90:		data->camplanex = -0.66;
+parsing2.c:91:		data->camplaney = 0;
+parsing2.c:106:		data->floor_color = ft_color(line);
+parsing2.c:108:		data->ceiling_color = ft_color(line);
+parsing_bonus.c:39:	data->assigned = 0;
+parsing_bonus.c:51:		data->mapo = ft_split(tmp, '\n', data, line);
+parsing_bonus.c:53:		data->mapo = 0;
+parsing_bonus.c:135:	tex.tex.img = mlx_xpm_file_to_image(data->mlx_ptr, \
+parsing.c:39:	data->assigned = 0;
+parsing.c:51:		data->mapo = ft_split(tmp, '\n', data, line);
+parsing.c:53:		data->mapo = 0;
+parsing.c:130:	tex.tex.img = mlx_xpm_file_to_image(data->mlx_ptr, \
+raycasting_bonus.c:22:	data->zbuffer = malloc(sizeof(double) * (data->width + 1));
+raycasting_bonus.c:23:	if (!data->zbuffer)
+raycasting_bonus.c:25:	data->list.first = NULL;
+raycasting_bonus.c:26:	while (++count_w < data->width)
+raycasting_bonus.c:28:		data->camx = 2 * count_w / (double)(data->width) - 1;
+raycasting_bonus.c:34:		while (++count_h < data->height)
+raycasting_bonus.c:36:		data->zbuffer[count_w] = distowall;
+raycasting_bonus.c:39:	free(data->zbuffer);
+raycasting_bonus.c:46:	half_screen = data->height / 2;
+raycasting_bonus.c:47:	data->wallheight = (int)(data->height / data->distowall);
+raycasting_bonus.c:48:	data->walltop = -data->wallheight / 2 + half_screen;
+raycasting_bonus.c:49:	data->wallbottom = data->wallheight / 2 + half_screen;
+raycasting_bonus.c:50:	if (data->wallbottom >= data->height)
+raycasting_bonus.c:51:		data->wallbottom = data->height - 1;
+raycasting_bonus.c:52:	if (data->wallbottom < 0)
+raycasting_bonus.c:53:		data->wallbottom = data->height;
+raycasting_bonus.c:58:	data->rayx = data->dirvecx + data->camplanex * data->camx;
+raycasting_bonus.c:59:	data->rayy = data->dirvecy + data->camplaney * data->camx;
+raycasting_bonus.c:60:	data->mapx = (int)(data->x);
+raycasting_bonus.c:61:	data->mapy = (int)(data->y);
+raycasting_bonus.c:62:	data->deltadistx = fabs(1 / data->rayx);
+raycasting_bonus.c:63:	data->deltadisty = fabs(1 / data->rayy);
+raycasting_bonus.c:64:	data->wall = 0;
+raycasting_bonus.c:69:	if (data->rayx < 0)
+raycasting_bonus.c:71:		data->stepx = -1;
+raycasting_bonus.c:72:		data->distox = (data->x - data->mapx) * data->deltadistx;
+raycasting_bonus.c:76:		data->stepx = 1;
+raycasting_bonus.c:77:		data->distox = (data->mapx + 1 - data->x) * data->deltadistx;
+raycasting_bonus.c:79:	if (data->rayy < 0)
+raycasting_bonus.c:81:		data->stepy = -1;
+raycasting_bonus.c:82:		data->distoy = (data->y - data->mapy) * data->deltadisty;
+raycasting_bonus.c:86:		data->stepy = 1;
+raycasting_bonus.c:87:		data->distoy = (data->mapy + 1 - data->y) * data->deltadisty;
+raycasting_bonus.c:93:	while (data->wall == 0)
+raycasting_bonus.c:95:		if (data->mapo[data->mapx][data->mapy] == '2')
+raycasting_bonus.c:97:		if (data->distox < data->distoy)
+raycasting_bonus.c:99:			data->distox += data->deltadistx;
+raycasting_bonus.c:100:			data->mapx += data->stepx;
+raycasting_bonus.c:101:			data->side = 0;
+raycasting_bonus.c:105:			data->distoy += data->deltadisty;
+raycasting_bonus.c:106:			data->mapy += data->stepy;
+raycasting_bonus.c:107:			data->side = 1;
+raycasting_bonus.c:109:		if (data->mapo[data->mapx][data->mapy] == '1')
+raycasting_bonus.c:110:			data->wall = 1;
+raycasting_bonus.c:113:	return (data->distowall);
+raycasting.c:22:	data->zbuffer = malloc(sizeof(double) * (data->width + 1));
+raycasting.c:23:	if (!data->zbuffer)
+raycasting.c:25:	data->list.first = NULL;
+raycasting.c:26:	while (++count_w < data->width)
+raycasting.c:28:		data->camx = 2 * count_w / (double)(data->width) - 1;
+raycasting.c:34:		while (++count_h < data->height)
+raycasting.c:36:		data->zbuffer[count_w] = distowall;
+raycasting.c:38:	free(data->zbuffer);
+raycasting.c:45:	half_screen = data->height / 2;
+raycasting.c:46:	data->wallheight = (int)(data->height / data->distowall);
+raycasting.c:47:	data->walltop = -data->wallheight / 2 + half_screen;
+raycasting.c:48:	data->wallbottom = data->wallheight / 2 + half_screen;
+raycasting.c:49:	if (data->wallbottom >= data->height)
+raycasting.c:50:		data->wallbottom = data->height - 1;
+raycasting.c:51:	if (data->wallbottom < 0)
+raycasting.c:52:		data->wallbottom = data->height;
+raycasting.c:57:	data->rayx = data->dirvecx + data->camplanex * data->camx;
+raycasting.c:58:	data->rayy = data->dirvecy + data->camplaney * data->camx;
+raycasting.c:59:	data->mapx = (int)(data->x);
+raycasting.c:60:	data->mapy = (int)(data->y);
+raycasting.c:61:	data->deltadistx = fabs(1 / data->rayx);
+raycasting.c:62:	data->deltadisty = fabs(1 / data->rayy);
+raycasting.c:63:	data->wall = 0;
+raycasting.c:68:	if (data->rayx < 0)
+raycasting.c:70:		data->stepx = -1;
+raycasting.c:71:		data->distox = (data->x - data->mapx) * data->deltadistx;
+raycasting.c:75:		data->stepx = 1;
+raycasting.c:76:		data->distox = (data->mapx + 1 - data->x) * data->deltadistx;
+raycasting.c:78:	if (data->rayy < 0)
+raycasting.c:80:		data->stepy = -1;
+raycasting.c:81:		data->distoy = (data->y - data->mapy) * data->deltadisty;
+raycasting.c:85:		data->stepy = 1;
+raycasting.c:86:		data->distoy = (data->mapy + 1 - data->y) * data->deltadisty;
+raycasting.c:92:	while (data->wall == 0)
+raycasting.c:94:		if (data->distox < data->distoy)
+raycasting.c:96:			data->distox += data->deltadistx;
+raycasting.c:97:			data->mapx += data->stepx;
+raycasting.c:98:			data->side = 0;
+raycasting.c:102:			data->distoy += data->deltadisty;
+raycasting.c:103:			data->mapy += data->stepy;
+raycasting.c:104:			data->side = 1;
+raycasting.c:106:		if (data->mapo[data->mapx][data->mapy] == '1')
+raycasting.c:107:			data->wall = 1;
+raycasting.c:110:	return (data->distowall);
+sprites_bonus.c:26:	x = data->mapx - data->x + 0.5;
+sprites_bonus.c:27:	y = data->mapy - data->y + 0.5;
+sprites_bonus.c:29:	(data->camplanex * data->dirvecy - data->dirvecx * data->camplaney);
+sprites_bonus.c:30:	transformx = invdet * (data->dirvecy * x - data->dirvecx * y);
+sprites_bonus.c:31:	new->d = invdet * (-data->camplaney * x + data->camplanex * y);
+sprites_bonus.c:33:	((data->width / 2) * (1 + transformx / new->d));
+sprites_bonus.c:34:	new->h = abs((int)(data->height / new->d));
+sprites_bonus.c:36:	new->x = data->mapx;
+sprites_bonus.c:37:	new->y = data->mapy;
+sprites_bonus.c:44:	new->top = -new->h / 2 + data->height / 2;
+sprites_bonus.c:47:	new->bottom = new->h / 2 + data->height / 2;
+sprites_bonus.c:48:	if (new->bottom >= data->height)
+sprites_bonus.c:49:		new->bottom = data->height - 1;
+sprites_bonus.c:50:	new->w = abs((int)((data->height) / new->d));
+sprites_bonus.c:55:	if (new->right >= data->width)
+sprites_bonus.c:56:		new->right = data->width - 1;
+sprites_bonus.c:63:	if (data->list.first == NULL)
+sprites_bonus.c:66:		data->list.first = new;
+sprites_bonus.c:70:		new = data->list.first;
+sprites_bonus.c:73:			if (new->x == data->mapx && new->y == data->mapy)
+sprites_bonus.c:87:	sprite = data->list.first;
+sprites_bonus.c:95:	ft_free_list(&data->list);
+sprites.c:26:	x = data->mapx - data->x + 0.5;
+sprites.c:27:	y = data->mapy - data->y + 0.5;
+sprites.c:29:	(data->camplanex * data->dirvecy - data->dirvecx * data->camplaney);
+sprites.c:30:	transformx = invdet * (data->dirvecy * x - data->dirvecx * y);
+sprites.c:31:	new->d = invdet * (-data->camplaney * x + data->camplanex * y);
+sprites.c:33:	((data->width / 2) * (1 + transformx / new->d));
+sprites.c:34:	new->h = abs((int)(data->height / new->d));
+sprites.c:36:	new->x = data->mapx;
+sprites.c:37:	new->y = data->mapy;
+sprites.c:44:	new->top = -new->h / 2 + data->height / 2;
+sprites.c:47:	new->bottom = new->h / 2 + data->height / 2;
+sprites.c:48:	if (new->bottom >= data->height)
+sprites.c:49:		new->bottom = data->height - 1;
+sprites.c:50:	new->w = abs((int)((data->height) / new->d));
+sprites.c:55:	if (new->right >= data->width)
+sprites.c:56:		new->right = data->width - 1;
+sprites.c:63:	if (data->list.first == NULL)
+sprites.c:66:		data->list.first = new;
+sprites.c:70:		new = data->list.first;
+sprites.c:73:			if (new->x == data->mapx && new->y == data->mapy)
+sprites.c:87:	sprite = data->list.first;
+sprites.c:95:	ft_free_list(&data->list);
+textures_bonus.c:17:	if (data->side == 0)
+textures_bonus.c:18:		data->exact_x = data->y + data->distowall * data->rayy;
+textures_bonus.c:20:		data->exact_x = data->x + data->distowall * data->rayx;
+textures_bonus.c:21:	data->exact_x = data->exact_x - (int)(data->exact_x);
+textures_bonus.c:22:	if (y >= data->walltop && y < data->wallbottom && data->side == 0 \
+textures_bonus.c:23:		&& data->rayx < 0)
+textures_bonus.c:25:	else if (y >= data->walltop && y < data->wallbottom && data->side == 0 \
+textures_bonus.c:26:		&& data->rayx >= 0)
+textures_bonus.c:28:	else if (y >= data->walltop && y < data->wallbottom && data->side == 1 \
+textures_bonus.c:29:		&& data->rayy < 0)
+textures_bonus.c:31:	else if (y >= data->walltop && y < data->wallbottom && data->side == 1 \
+textures_bonus.c:32:		&& data->rayy >= 0)
+textures_bonus.c:34:	else if (y >= data->wallbottom)
+textures_bonus.c:35:		data->addr[y * data->width + x] = data->floor_color;
+textures_bonus.c:37:		data->addr[y * data->width + x] = data->ceiling_color;
+textures_bonus.c:44:		data->tex_x = (int)(data->exact_x * data->no_tex.width);
+textures_bonus.c:45:		data->tex_y = (y - data->walltop) * \
+textures_bonus.c:46:		data->no_tex.height / data->wallheight;
+textures_bonus.c:47:		data->addr[y * data->width + x] = \
+textures_bonus.c:48:		data->no_tex.tex.addr[data->tex_y * data->no_tex.width + data->tex_x];
+textures_bonus.c:52:		data->tex_x = (int)(data->exact_x * data->so_tex.width);
+textures_bonus.c:53:		data->tex_y = (y - data->walltop) * \
+textures_bonus.c:54:		data->so_tex.height / data->wallheight;
+textures_bonus.c:55:		data->addr[y * data->width + x] = \
+textures_bonus.c:56:		data->so_tex.tex.addr[data->tex_y * data->so_tex.width + data->tex_x];
+textures_bonus.c:71:		sprite->spritescreenx)) * data->sp_tex.width / sprite->w) / 256);
+textures_bonus.c:73:				x < data->width && sprite->d < data->zbuffer[x])
+textures_bonus.c:76:			while (++y < sprite->bottom && y < data->height)
+textures_bonus.c:78:				d = y * 256 - data->height * 128 + sprite->h * 128;
+textures_bonus.c:79:				sprite->t_y = round(((d * data->sp_tex.height) / sprite->h) \
+textures_bonus.c:81:				id = sprite->t_y * data->sp_tex.width + sprite->t_x;
+textures_bonus.c:82:				if (data->sp_tex.tex.addr[id] != 0)
+textures_bonus.c:83:					data->addr[y * data->width + x] = data->sp_tex.tex.addr[id];
+textures_bonus.c:92:		data->no_tex = tex;
+textures_bonus.c:94:		data->we_tex = tex;
+textures_bonus.c:96:		data->ea_tex = tex;
+textures_bonus.c:98:		data->so_tex = tex;
+textures_bonus.c:100:		data->sp_tex = tex;
+textures.c:17:	if (data->side == 0)
+textures.c:18:		data->exact_x = data->y + data->distowall * data->rayy;
+textures.c:20:		data->exact_x = data->x + data->distowall * data->rayx;
+textures.c:21:	data->exact_x = data->exact_x - (int)(data->exact_x);
+textures.c:22:	if (y >= data->walltop && y < data->wallbottom && data->side == 0 \
+textures.c:23:		&& data->rayx < 0)
+textures.c:25:	else if (y >= data->walltop && y < data->wallbottom && data->side == 0 \
+textures.c:26:		&& data->rayx >= 0)
+textures.c:28:	else if (y >= data->walltop && y < data->wallbottom && data->side == 1 \
+textures.c:29:		&& data->rayy < 0)
+textures.c:31:	else if (y >= data->walltop && y < data->wallbottom && data->side == 1 \
+textures.c:32:		&& data->rayy >= 0)
+textures.c:34:	else if (y >= data->wallbottom)
+textures.c:35:		data->addr[y * data->width + x] = data->floor_color;
+textures.c:37:		data->addr[y * data->width + x] = data->ceiling_color;
+textures.c:44:		data->tex_x = (int)(data->exact_x * data->no_tex.width);
+textures.c:45:		data->tex_y = (y - data->walltop) * \
+textures.c:46:		data->no_tex.height / data->wallheight;
+textures.c:47:		data->addr[y * data->width + x] = \
+textures.c:48:		data->no_tex.tex.addr[data->tex_y * data->no_tex.width + data->tex_x];
+textures.c:52:		data->tex_x = (int)(data->exact_x * data->so_tex.width);
+textures.c:53:		data->tex_y = (y - data->walltop) * \
+textures.c:54:		data->so_tex.height / data->wallheight;
+textures.c:55:		data->addr[y * data->width + x] = \
+textures.c:56:		data->so_tex.tex.addr[data->tex_y * data->so_tex.width + data->tex_x];
+textures.c:71:		sprite->spritescreenx)) * data->sp_tex.width / sprite->w) / 256);
+textures.c:73:				x < data->width && sprite->d < data->zbuffer[x])
+textures.c:76:			while (++y < sprite->bottom && y < data->height)
+textures.c:78:				d = y * 256 - data->height * 128 + sprite->h * 128;
+textures.c:79:				sprite->t_y = round(((d * data->sp_tex.height) / sprite->h) \
+textures.c:81:				id = sprite->t_y * data->sp_tex.width + sprite->t_x;
+textures.c:82:				if (data->sp_tex.tex.addr[id] != 0)
+textures.c:83:					data->addr[y * data->width + x] = data->sp_tex.tex.addr[id];
+textures.c:92:		data->no_tex = tex;
+textures.c:94:		data->we_tex = tex;
+textures.c:96:		data->ea_tex = tex;
+textures.c:98:		data->so_tex = tex;
+textures.c:100:		data->sp_tex = tex;
